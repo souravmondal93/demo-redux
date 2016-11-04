@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import { RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 import { ComponentModule } from './components';
 
@@ -11,6 +12,7 @@ import { AppComponent } from './containers/app';
 import { NamePageComponent } from './containers/name-page';
 import { QuestionPageComponent } from './containers/question-page';
 import { ResultPageComponent } from './containers/result-page';
+import { ReportPageComponent } from './containers/report-page';
 
 import { routes } from './routes'
 
@@ -19,10 +21,12 @@ import { routes } from './routes'
 		AppComponent,
 		NamePageComponent,
 		QuestionPageComponent,
-		ResultPageComponent
+		ResultPageComponent,
+		ReportPageComponent
 	],
 	imports: [
 		BrowserModule,
+		CommonModule,
 		FormsModule,
 		HttpModule,
 		MaterialModule.forRoot(),
