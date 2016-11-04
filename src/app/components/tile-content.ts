@@ -11,12 +11,7 @@ import { Component, Input, OnInit } from '@angular/core';
 			{{ contentText }}
 		</span>
 		
-	`,
-	styles: [`
-		span {
-			text-transform: capitalize;
-		}
-	`]
+	`
 })
 
 export class TileContentComponent implements OnInit {
@@ -25,7 +20,6 @@ export class TileContentComponent implements OnInit {
 	rightIcon: boolean = false;
 
 	ngOnInit() {
-		console.log(this.content);
 		if(this.content === 'right' || this.content === 'wrong') {
 			this.showIcon = true;
 			this.rightIcon = (this.content === 'right')

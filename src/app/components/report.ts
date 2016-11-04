@@ -12,12 +12,7 @@ import { Component } from '@angular/core';
 				</md-grid-list>
 			</md-card-content>
 		</md-card>
-	`,
-	styles: [`
-		span {
-			text-transform: capitalize;
-		}
-	`]
+	`
 })
 
 export class ReportComponent {
