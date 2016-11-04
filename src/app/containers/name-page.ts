@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
 	template: `
 		<md-card>
             <md-card-title>Name Page</md-card-title>
+            
+            <da-name-input></da-name-input>
         </md-card>
 	`
 })

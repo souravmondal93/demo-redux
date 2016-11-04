@@ -4,10 +4,18 @@ import { RouterModule } from '@angular/router';
 
 import { LayoutComponent } from './layout';
 import { ToolbarComponent } from './toolbar';
+import { NameInputComponent } from './name-input';
+import { QuestionComponent } from './question';
+import { AnswerListComponent } from './answer-list';
+import { AnswerComponent } from './answer';
 
 export const COMPONENTS = [
 	LayoutComponent,
-	ToolbarComponent
+	ToolbarComponent,
+	NameInputComponent,
+	QuestionComponent,
+	AnswerListComponent,
+	AnswerComponent
 ];
 
 @NgModule({

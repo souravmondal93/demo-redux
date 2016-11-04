@@ -9,13 +9,15 @@ import { ComponentModule } from './components';
 
 import { AppComponent } from './containers/app';
 import { NamePageComponent } from './containers/name-page';
+import { QuestionPageComponent } from './containers/question-page';
 
 import { routes } from './routes'
 
 @NgModule({
 	declarations: [
 		AppComponent,
-		NamePageComponent
+		NamePageComponent,
+		QuestionPageComponent
 	],
 	imports: [
 		BrowserModule,
