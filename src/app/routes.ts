@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 
 import { NamePageComponent } from './containers/name-page';
 import { QuestionPageComponent } from './containers/question-page';
+import { ResultPageComponent } from './containers/result-page';
 
 export const routes: Routes = [
 	{
@@ -11,5 +12,9 @@ export const routes: Routes = [
 	{
 		path: 'question/:id',
 		component: QuestionPageComponent
+	},
+	{
+		path: 'result',
+		component: ResultPageComponent
 	}
 ];

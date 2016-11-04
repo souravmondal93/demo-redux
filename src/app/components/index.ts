@@ -8,6 +8,8 @@ import { NameInputComponent } from './name-input';
 import { QuestionComponent } from './question';
 import { AnswerListComponent } from './answer-list';
 import { AnswerComponent } from './answer';
+import { ResultComponent } from './result';
+import { BarGraphComponent } from './bar-graph';
 
 export const COMPONENTS = [
 	LayoutComponent,
@@ -15,7 +17,9 @@ export const COMPONENTS = [
 	NameInputComponent,
 	QuestionComponent,
 	AnswerListComponent,
-	AnswerComponent
+	AnswerComponent,
+	ResultComponent,
+	BarGraphComponent,
 ];
 
 @NgModule({

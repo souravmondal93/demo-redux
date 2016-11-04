@@ -10,6 +10,7 @@ import { ComponentModule } from './components';
 import { AppComponent } from './containers/app';
 import { NamePageComponent } from './containers/name-page';
 import { QuestionPageComponent } from './containers/question-page';
+import { ResultPageComponent } from './containers/result-page';
 
 import { routes } from './routes'
 
@@ -17,7 +18,8 @@ import { routes } from './routes'
 	declarations: [
 		AppComponent,
 		NamePageComponent,
-		QuestionPageComponent
+		QuestionPageComponent,
+		ResultPageComponent
 	],
 	imports: [
 		BrowserModule,
